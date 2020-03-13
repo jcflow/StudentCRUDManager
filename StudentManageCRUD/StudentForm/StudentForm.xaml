@@ -1,0 +1,34 @@
+﻿<Window x:Class="StudentManageCRUD.StudentForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentManageCRUD"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="StudentForm" Height="250" Width="350" MinHeight="250" MinWidth="350" MaxHeight="250" MaxWidth="350" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+            <Label x:Name="LbName" Content="Name" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" />
+            <TextBox x:Name="TbName" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" Height="23" Text="{Binding Name}" />
+            <Label x:Name="LbLastname" Grid.Row="1" Content="Lastname" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" />
+            <TextBox x:Name="TbLastname" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" Height="23" Text="{Binding Lastname}"/>
+            <Label x:Name="LbHeight" Grid.Row="2" Content="Height" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" />
+            <TextBox x:Name="TbHeight" Grid.Row="2"  Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" Height="23" Text="{Binding Height}"/>
+        </Grid>
+        <Button x:Name="BtnSubmit" Content="Submit" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Margin="10" FontSize="18" Background="#2ecc71" Foreground="White" Command="{Binding SubmitCommand}" />
+    </Grid>
+</Window>

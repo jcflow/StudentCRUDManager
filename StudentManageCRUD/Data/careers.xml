@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<careers>
+  <career>
+    <id>0</id>
+    <name>Systems Engineering</name>
+    <duration>8</duration>
+    <price>5000</price>
+    <description>A great career...</description>
+  </career>
+  <career>
+    <id>1</id>
+    <name>Commercial Engineering</name>
+    <duration>10</duration>
+    <price>6000</price>
+    <description>A bad career...</description>
+  </career>
+  <career>
+    <id>2</id>
+    <name>Medicine</name>
+    <duration>9</duration>
+    <price>4000</price>
+    <description>Another great career...</description>
+  </career>
+  <career>
+    <id>3</id>
+    <name>Cinematography</name>
+    <duration>6</duration>
+    <price>6000</price>
+    <description>The best career...</description>
+  </career>
+</careers>

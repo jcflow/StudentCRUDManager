@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <id>0</id>
+    <name>Juan</name>
+    <lastname>Chavez</lastname>
+    <height>1.68</height>
+    <careerId>3</careerId>
+  </student>
+  <student>
+    <id>1</id>
+    <name>Jesel</name>
+    <lastname>Rojas</lastname>
+    <height>1.67</height>
+    <careerId>1</careerId>
+  </student>
+</students>

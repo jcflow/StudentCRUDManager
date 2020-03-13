@@ -1,0 +1,3 @@
+﻿0/Alejandro/Salazar/1.75/1
+1/Mauricio/Molleda/1.55/2
+2/Freddy/Escobar/1.70/3
